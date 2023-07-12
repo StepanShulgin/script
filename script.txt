@@ -1,9 +1,9 @@
 <script> 
-  function changeImage () {                            
-    if(document.getElementById("http://ipic.su/img/img7/fs/Slice12.1689193375.png").src == "http://ipic.su/img/img7/fs/Slice7(3).1688943139.png"){
-      document.getElementById("http://ipic.su/img/img7/fs/Slice12.1689193375.png").src = "http://ipic.su/img/img7/fs/Slice12.1689193375.png"                        
+  function changeImage(){                            
+    if(document.getElementById("firstId").src == "http://ipic.su/img/img7/fs/Slice7(3).1688943139.png"){
+      document.getElementById("firstId").src = "http://ipic.su/img/img7/fs/Slice12.1689193375.png"                        
     } else {                      
-      document.getElementById("http://ipic.su/img/img7/fs/Slice12.1689193375.png").src = "http://ipic.su/img/img7/fs/Slice7(3).1688943139.png"
-    }  
+      document.getElementById("firstId").src = "http://ipic.su/img/img7/fs/Slice7(3).1688943139.png"
+    }                    
   }                
 </script>
